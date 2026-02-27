@@ -13,3 +13,4 @@ if __name__ == "__main__":
 
     words = ["banana", "kiwi", "strawberry", "fig"]
     print(sorted(words, key=lambda w: len(w)))
+    #функция в одну строку без имени

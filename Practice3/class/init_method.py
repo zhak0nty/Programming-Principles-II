@@ -31,3 +31,4 @@ if __name__ == "__main__":
     print(acc.withdraw(700))
     print(acc.balance)
     print(acc.withdraw(99999))
+    #начальные данные при создании.

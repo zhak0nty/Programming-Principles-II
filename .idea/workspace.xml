@@ -5,8 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="41664ced-9e4b-4b14-81a3-588986f4e4b0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/work/test2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/work/hello.html" beforeDir="false" afterPath="$PROJECT_DIR$/work/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice3/class/class_definition.py" beforeDir="false" afterPath="$PROJECT_DIR$/Practice3/class/class_definition.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice3/class/init_method.py" beforeDir="false" afterPath="$PROJECT_DIR$/Practice3/class/init_method.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice3/functions/args_kwargs.py" beforeDir="false" afterPath="$PROJECT_DIR$/Practice3/functions/args_kwargs.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice3/inheritance/inheritance_basics.py" beforeDir="false" afterPath="$PROJECT_DIR$/Practice3/inheritance/inheritance_basics.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice3/inheritance/method_overriding.py" beforeDir="false" afterPath="$PROJECT_DIR$/Practice3/inheritance/method_overriding.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice3/inheritance/multiple_inheritance.py" beforeDir="false" afterPath="$PROJECT_DIR$/Practice3/inheritance/multiple_inheritance.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice3/inheritance/super_function.py" beforeDir="false" afterPath="$PROJECT_DIR$/Practice3/inheritance/super_function.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice3/lambda/lambda_basics.py" beforeDir="false" afterPath="$PROJECT_DIR$/Practice3/lambda/lambda_basics.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice3/lambda/lambda_with_filter.py" beforeDir="false" afterPath="$PROJECT_DIR$/Practice3/lambda/lambda_with_filter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice3/lambda/lambda_with_map.py" beforeDir="false" afterPath="$PROJECT_DIR$/Practice3/lambda/lambda_with_map.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice3/lambda/lambda_with_sorted.py" beforeDir="false" afterPath="$PROJECT_DIR$/Practice3/lambda/lambda_with_sorted.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,16 +52,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.test.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/zhak0nty/Documents/pp2",
-    "settings.editor.selected.configurable": "promo.ai.assistant"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.test.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/zhak0nty/Documents/pp2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;promo.ai.assistant&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/first practice" />

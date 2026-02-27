@@ -17,10 +17,11 @@ def merge_lists(*lists: list[int]) -> list[int]:
     for lst in lists:
         result.extend(lst)
     return result
-
+#передать несколько значений без указания имён args
 if __name__ == "__main__":
     print(sum_all(1, 2, 3))
     print(sum_all(10, 0.5, 2.5))
     print_info(name="Andrey", city="Almaty", major="Information Systems")
     print(order_total(10000, 0.10, 0.05, delivery=500, tip=200))
     print(merge_lists([1, 2], [10, 20, 30], [-1]))
+    #kwargs работает похожим образом, но собирает именованные аргументы

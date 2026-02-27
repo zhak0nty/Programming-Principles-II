@@ -23,3 +23,5 @@ if __name__ == "__main__":
 
     print([cls.__name__ for cls in Duck.mro()])
     print([cls.__name__ for cls in Duck2.mro()])
+    # наслдеуют от многих
+    

@@ -8,3 +8,4 @@ if __name__ == "__main__":
 
     products = [("Phone", 500), ("Laptop", 1200), ("Mouse", 25)]
     print(list(filter(lambda p: p[1] >= 500, products)))
+    #отфильтровать тру го фалс нет

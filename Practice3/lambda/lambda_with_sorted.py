@@ -14,3 +14,4 @@ if __name__ == "__main__":
 
     students = [("Ayan", 90), ("Andrey", 85), ("Dana", 95)]
     print(sorted(students, key=lambda t: t[1], reverse=True))
+    #кастомная сортировка

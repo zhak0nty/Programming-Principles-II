@@ -9,3 +9,4 @@ if __name__ == "__main__":
 
     students = [("Ayan", 90), ("Andrey", 85), ("Dana", 95)]
     print(list(map(lambda t: t[0], students)))
+    #изменить данные

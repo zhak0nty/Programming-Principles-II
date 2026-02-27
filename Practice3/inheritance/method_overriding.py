@@ -19,3 +19,4 @@ if __name__ == "__main__":
     print(CardPayment().pay(1000))
     print(CashPayment().pay(1000))
     print(BonusPayment().pay(1000))
+# дочерка меняет родителя
