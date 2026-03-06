@@ -4,19 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="41664ced-9e4b-4b14-81a3-588986f4e4b0" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Practice3/class/class_definition.py" beforeDir="false" afterPath="$PROJECT_DIR$/Practice3/class/class_definition.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice3/class/init_method.py" beforeDir="false" afterPath="$PROJECT_DIR$/Practice3/class/init_method.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice3/functions/args_kwargs.py" beforeDir="false" afterPath="$PROJECT_DIR$/Practice3/functions/args_kwargs.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice3/inheritance/inheritance_basics.py" beforeDir="false" afterPath="$PROJECT_DIR$/Practice3/inheritance/inheritance_basics.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice3/inheritance/method_overriding.py" beforeDir="false" afterPath="$PROJECT_DIR$/Practice3/inheritance/method_overriding.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice3/inheritance/multiple_inheritance.py" beforeDir="false" afterPath="$PROJECT_DIR$/Practice3/inheritance/multiple_inheritance.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice3/inheritance/super_function.py" beforeDir="false" afterPath="$PROJECT_DIR$/Practice3/inheritance/super_function.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice3/lambda/lambda_basics.py" beforeDir="false" afterPath="$PROJECT_DIR$/Practice3/lambda/lambda_basics.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice3/lambda/lambda_with_filter.py" beforeDir="false" afterPath="$PROJECT_DIR$/Practice3/lambda/lambda_with_filter.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice3/lambda/lambda_with_map.py" beforeDir="false" afterPath="$PROJECT_DIR$/Practice3/lambda/lambda_with_map.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice3/lambda/lambda_with_sorted.py" beforeDir="false" afterPath="$PROJECT_DIR$/Practice3/lambda/lambda_with_sorted.py" afterDir="false" />
-    </list>
+    <list default="true" id="41664ced-9e4b-4b14-81a3-588986f4e4b0" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
