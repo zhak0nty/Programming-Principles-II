@@ -46,14 +46,11 @@ def ensure_schema(conn) -> None:
     base = Path(__file__).resolve().parent
     with conn.cursor() as cur:
         cur.execute(
-            """
-            CREATE TABLE IF NOT EXISTS contacts (
-                id SERIAL PRIMARY KEY,
-                first_name VARCHAR(255) NOT NULL,
-                last_name VARCHAR(255) NOT NULL DEFAULT '',
-                phone VARCHAR(64) NOT NULL
-            );
-            """
+            "CREATE TABLE IF NOT EXISTS contacts ("
+            "id SERIAL PRIMARY KEY, "
+            "first_name VARCHAR(255) NOT NULL, "
+            "last_name VARCHAR(255) NOT NULL DEFAULT '', "
+            "phone VARCHAR(64) NOT NULL);"
         )
     conn.commit()
     for name in ("functions.sql", "procedures.sql"):

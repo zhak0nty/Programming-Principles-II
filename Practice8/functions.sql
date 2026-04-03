@@ -14,7 +14,7 @@ BEGIN
        OR c.last_name ILIKE '%' || p || '%'
        OR c.phone ILIKE '%' || p || '%';
 END;
-$$ LANGUAGE plpgsql;
+$$;
 
 CREATE OR REPLACE FUNCTION get_contacts_page(p_limit integer, p_offset integer)
 RETURNS TABLE(id integer, first_name character varying, last_name character varying, phone character varying)
@@ -27,7 +27,7 @@ BEGIN
     ORDER BY c.first_name, c.last_name
     LIMIT p_limit OFFSET p_offset;
 END;
-$$ LANGUAGE plpgsql;
+$$;
 
 CREATE OR REPLACE FUNCTION bulk_insert_contacts(p_first_names text[], p_last_names text[], p_phones text[])
 RETURNS TABLE(bad_first text, bad_last text, bad_phone text, reason text)
@@ -78,4 +78,4 @@ BEGIN
         END IF;
     END LOOP;
 END;
-$$ LANGUAGE plpgsql;
+$$;

@@ -12,16 +12,18 @@ def main() -> None:
         default_csv = Path(__file__).with_name("contacts.csv")
         while True:
             print(
-                """
---- PhoneBook (Practice 8) ---
-1) Поиск по шаблону (функция get_contacts_by_pattern)
-2) Upsert: имя, фамилия, телефон (CALL upsert_contact)
-3) Массовая вставка из списков (bulk_insert_contacts)
-4) Постраничный вывод (get_contacts_page)
-5) Удалить (CALL delete_contact_by_name_or_phone)
-6) Загрузить CSV в таблицу (прямой INSERT как в Practice 7)
-0) Выход
-"""
+                "\n".join(
+                    (
+                        "--- PhoneBook ---",
+                        "1) Поиск по шаблону",
+                        "2) Добавить или обновить контакт",
+                        "3) Массовая вставка из списков",
+                        "4) Постраничный вывод",
+                        "5) Удалить контакт",
+                        "6) Загрузить CSV в таблицу",
+                        "0) Выход",
+                    )
+                )
             )
             choice = input("Выбор: ").strip()
             if choice == "0":
@@ -123,10 +125,7 @@ def main() -> None:
                             continue
                         with conn.cursor() as cur:
                             cur.execute(
-                                """
-                                INSERT INTO contacts (first_name, last_name, phone)
-                                VALUES (%s, %s, %s)
-                                """,
+                                "INSERT INTO contacts (first_name, last_name, phone) VALUES (%s, %s, %s)",
                                 (fn, ln, ph),
                             )
                         n += 1
